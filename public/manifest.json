@@ -1,0 +1,56 @@
+{
+  "id": "/",
+  "name": "Приглашение на свидание ❤️",
+  "short_name": "Свидание ❤️",
+  "description": "Романтическое интерактивное приглашение на особенное свидание",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#170f14",
+  "theme_color": "#e11d48",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Таймер до свидания",
+      "short_name": "Таймер",
+      "description": "Сколько осталось до нашей встречи 3 октября",
+      "url": "/#countdown",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Подтвердить встречу",
+      "short_name": "Ответ",
+      "description": "Сказать Да или выбрать другое время",
+      "url": "/#rsvp",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Наши моменты",
+      "short_name": "Фото",
+      "description": "Романтическая фотогалерея воспоминаний",
+      "url": "/#gallery",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Локация встречи",
+      "short_name": "Место",
+      "description": "Выбор идеального места свидания",
+      "url": "/#location",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}

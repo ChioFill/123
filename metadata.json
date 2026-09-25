@@ -1,0 +1,6 @@
+{
+  "name": "Приглашение на свидание ❤️",
+  "description": "Романтическое интерактивное приглашение на свидание с выбором времени, места, обратным отсчетом, музыкой и календарем",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
